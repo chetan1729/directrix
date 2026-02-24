@@ -1,0 +1,18 @@
+[10:42:10] Loading model from /workspace/gemma_keras_preset...
+[10:42:16] Loading weights from checkpoints/ckpt_step_7000.pkl...
+[10:42:17] Loading 'test' split of HH-RLHF...
+[10:42:20] Starting Quantitative Evaluation (1,000 samples)...
+[10:43:00] Processed 100/1000 | Running Accuracy: 0.5500
+[10:43:19] Processed 200/1000 | Running Accuracy: 0.5600
+[10:43:39] Processed 300/1000 | Running Accuracy: 0.6000
+[10:43:58] Processed 400/1000 | Running Accuracy: 0.6000
+[10:44:18] Processed 500/1000 | Running Accuracy: 0.6100
+[10:44:38] Processed 600/1000 | Running Accuracy: 0.6150
+[10:44:57] Processed 700/1000 | Running Accuracy: 0.6014
+[10:45:17] Processed 800/1000 | Running Accuracy: 0.6012
+[10:45:37] Processed 900/1000 | Running Accuracy: 0.6156
+[10:45:56] Processed 1000/1000 | Running Accuracy: 0.6220
+[10:45:56] --- EVALUATION RESULTS ---
+[10:45:56] Total Accuracy: 0.6220
+[10:45:56] Average Reward Margin: 2.3334
+[10:45:56] Validation Complete.

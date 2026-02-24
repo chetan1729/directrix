@@ -44,13 +44,13 @@ try:
     ref_model = keras_hub.models.GemmaCausalLM.from_preset(PRESET_PATH)
     
     ref_model.trainable = False
-    log_event("✅ SUCCESS: Models are live in VRAM on the 5090 cluster.")
+    log_event("SUCCESS: Models are live in VRAM on the 5090 cluster.")
     
     # Simple log putting: verification
     response = model.generate("What is your current alignment status?", max_length=32)
     print(f"\nModel Response: {response}\n")
 
 except Exception as e:
-    log_event(f"❌ Load failed: {e}")
+    log_event(f"Load failed: {e}")
     if os.path.exists(PRESET_PATH):
         log_event(f"Contents of {PRESET_PATH}: {os.listdir(PRESET_PATH)}")
