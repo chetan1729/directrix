@@ -8,7 +8,7 @@ def log_event(message):
     print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] Log: {message}")
 
 # --- AUTH & DOWNLOAD ---
-MY_TOKEN = "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" 
+MY_TOKEN = "" 
 REPO_ID = "google/gemma-1.1-2b-it-keras" 
 LOCAL_DIR = "/workspace/gemma_keras_preset"
 
